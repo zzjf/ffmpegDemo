@@ -1,3 +1,5 @@
+苹果官方例子：
+
 AVBasicVideoOutput
 ==================
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "41DFE7245D76BC3254274F7BD116763F9351BB48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "41DFE7245D76BC3254274F7BD116763F9351BB48" : 9223372036854775807,
+    "1BF19058C9B814F8BA3C3075BCECA7739FE75020" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F954A016-8A69-45EF-B7D8-0F538CF2020B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "41DFE7245D76BC3254274F7BD116763F9351BB48" : "Learn-FFmpeg\/",
+    "1BF19058C9B814F8BA3C3075BCECA7739FE75020" : "Learn-FFmpeg\/FFmpeg-iOS-build-script\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Learn-FFmpeg",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Learn-FFmpeg.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kewlbear\/FFmpeg-iOS-build-script",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1BF19058C9B814F8BA3C3075BCECA7739FE75020"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ishepherdMiner\/Learn-FFmpeg",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41DFE7245D76BC3254274F7BD116763F9351BB48"
+    }
+  ]
+}

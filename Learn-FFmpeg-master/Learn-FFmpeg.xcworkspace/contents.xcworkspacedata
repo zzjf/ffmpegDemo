@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Learn-FFmpeg/Learn-FFmpeg.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Debug-FFmpeg/Debug-FFmpeg.xcodeproj">
+   </FileRef>
+</Workspace>

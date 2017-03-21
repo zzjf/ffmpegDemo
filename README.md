@@ -1,0 +1,2 @@
+# ffmpegDemo
+这是从网上，主要是从github上收集的关于ios视频播放的实现；你可以根据文件夹名字去github上搜索，找到对应github地址；

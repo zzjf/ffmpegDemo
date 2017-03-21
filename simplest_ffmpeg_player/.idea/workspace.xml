@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="ffmpegDemo" targetName="player" />
+      <config projectName="ffmpegDemo" targetName="playerPure" />
+      <config projectName="ffmpegDemo" targetName="playerSu" />
+      <config projectName="ffmpegDemo" targetName="playerSdl2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ccbfebb9-a9ad-4761-b8a4-6c65a89a06ef" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_assert.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_assert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_atomic.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_atomic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_audio.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_audio.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_bits.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_bits.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_blendmode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_blendmode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_clipboard.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_clipboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_config.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_config.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_cpuinfo.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_cpuinfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_endian.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_endian.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_error.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_error.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_events.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_events.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_filesystem.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_filesystem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_gamecontroller.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_gamecontroller.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_gesture.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_gesture.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_haptic.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_haptic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_hints.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_hints.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_joystick.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_joystick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_keyboard.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_keyboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_keycode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_keycode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_loadso.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_loadso.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_log.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_log.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_main.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_main.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_messagebox.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_messagebox.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_mouse.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_mouse.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_mutex.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_mutex.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_name.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_name.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengl.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengles.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengles.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengles2.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_opengles2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_pixels.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_pixels.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_platform.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_power.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_power.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_quit.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_quit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_rect.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_rect.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_render.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_render.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_revision.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_revision.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_rwops.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_rwops.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_scancode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_scancode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_shape.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_shape.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_stdinc.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_stdinc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_surface.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_surface.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_system.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_system.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_syswm.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_syswm.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_assert.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_assert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_common.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_common.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_compare.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_compare.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_crc32.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_crc32.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_font.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_font.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_fuzzer.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_fuzzer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_harness.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_harness.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_images.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_images.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_log.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_log.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_md5.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_md5.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_random.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_test_random.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_thread.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_thread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_timer.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_timer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_touch.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_touch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_types.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_types.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_version.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_version.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_video.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/SDL_video.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/begin_code.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/begin_code.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/close_code.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player/include/SDL2/close_code.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_assert.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_assert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_atomic.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_atomic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_audio.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_audio.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_bits.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_bits.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_blendmode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_blendmode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_clipboard.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_clipboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_config.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_config.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_cpuinfo.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_cpuinfo.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_endian.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_endian.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_error.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_error.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_events.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_events.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_filesystem.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_filesystem.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_gamecontroller.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_gamecontroller.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_gesture.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_gesture.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_haptic.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_haptic.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_hints.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_hints.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_joystick.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_joystick.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_keyboard.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_keyboard.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_keycode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_keycode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_loadso.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_loadso.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_log.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_log.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_main.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_main.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_messagebox.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_messagebox.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_mouse.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_mouse.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_mutex.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_mutex.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_name.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_name.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengl.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengl.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengles.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengles.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengles2.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_opengles2.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_pixels.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_pixels.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_platform.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_platform.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_power.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_power.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_quit.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_quit.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_rect.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_rect.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_render.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_render.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_revision.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_revision.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_rwops.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_rwops.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_scancode.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_scancode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_shape.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_shape.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_stdinc.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_stdinc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_surface.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_surface.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_system.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_system.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_syswm.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_syswm.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_assert.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_assert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_common.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_common.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_compare.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_compare.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_crc32.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_crc32.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_font.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_font.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_fuzzer.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_fuzzer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_harness.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_harness.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_images.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_images.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_log.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_log.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_md5.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_md5.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_random.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_test_random.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_thread.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_thread.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_timer.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_timer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_touch.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_touch.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_types.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_types.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_version.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_version.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_video.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/SDL_video.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/begin_code.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/begin_code.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/close_code.h" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/include/SDL2/close_code.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp" afterPath="$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="simplest_ffmpeg_decoder_pure.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_decoder_pure/simplest_ffmpeg_decoder_pure.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="836">
+              <caret line="174" column="51" lean-forward="false" selection-start-line="174" selection-start-column="51" selection-end-line="174" selection-end-column="51" />
+              <folding>
+                <element signature="e#694#751#0" expanded="true" />
+                <element signature="e#1345#1435#0" expanded="true" />
+                <element signature="e#1546#1636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplest_ffmpeg_player.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player/simplest_ffmpeg_player.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3638">
+              <caret line="220" column="18" lean-forward="false" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+              <folding>
+                <element signature="e#67#244#0" expanded="true" />
+                <element signature="e#301#332#0" expanded="true" />
+                <element signature="e#3089#3122#0" expanded="true" />
+                <element signature="e#5113#5195#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simplest_ffmpeg_player_su.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1614">
+              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+              <folding>
+                <element signature="e#66#243#0" expanded="true" />
+                <element signature="e#300#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player_su/ReadMe.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-82">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SDL_timer.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/SDL2/SDL_timer.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swscale.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/libswscale/swscale.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="293" column="7" lean-forward="false" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avformat.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/libavformat/avformat.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="892" column="20" lean-forward="false" selection-start-line="892" selection-start-column="20" selection-end-line="892" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avcodec.h" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/include/libavcodec/avcodec.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="4471" column="5" lean-forward="false" selection-start-line="4471" selection-start-column="5" selection-end-line="4471" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/simplest_video_play_sdl2/simplest_video_play_sdl2.cpp" />
+        <option value="$PROJECT_DIR$/simplest_ffmpeg_player/simplest_ffmpeg_player.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="467" />
+    <option name="y" value="59" />
+    <option name="width" value="1814" />
+    <option name="height" value="1199" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_video_play_sdl2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_video_play_sdl2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player_su" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_decoder_pure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ffmpegDemo" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simplest_ffmpeg_player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmake-build-debug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager" selected="Application.playerSu">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ffmpegDemo" TARGET_NAME="playerSdl2" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="simplest_ffmpeg_player" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="playerSdl2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ffmpegDemo" TARGET_NAME="playerSdl2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ffmpegDemo" RUN_TARGET_NAME="playerSdl2">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="playerPure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ffmpegDemo" TARGET_NAME="playerPure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ffmpegDemo" RUN_TARGET_NAME="playerPure">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="player" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ffmpegDemo" TARGET_NAME="player" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ffmpegDemo" RUN_TARGET_NAME="player">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="playerSu" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ffmpegDemo" TARGET_NAME="playerSu" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ffmpegDemo" RUN_TARGET_NAME="playerSu">
+      <envs />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.playerSdl2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.playerPure" />
+      <item index="3" class="java.lang.String" itemvalue="Application.player" />
+      <item index="4" class="java.lang.String" itemvalue="Application.playerSu" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ccbfebb9-a9ad-4761-b8a4-6c65a89a06ef" name="Default" comment="" />
+      <created>1489810783265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489810783265</updated>
+      <workItem from="1489810784547" duration="13234000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13234000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="467" y="59" width="1814" height="1199" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28059536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292789" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292789" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292789" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292789" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34926152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/simplest_video_play_sdl2/simplest_video_play_sdl2.cpp</url>
+          <line>70</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_video_play_sdl2/test_yuv420p_320x180.yuv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5185">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/_types/_uint32_t.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_video.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="126" column="8" lean-forward="false" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_rect.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="67" column="2" lean-forward="false" selection-start-line="67" selection-start-column="2" selection-end-line="67" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_events.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="659" column="0" lean-forward="false" selection-start-line="659" selection-start-column="0" selection-end-line="659" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_stdinc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="118" column="8" lean-forward="false" selection-start-line="118" selection-start-column="8" selection-end-line="118" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_pixels.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="278" column="4" lean-forward="false" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
+          <folding>
+            <element signature="e#10396#10611#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_thread.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_render.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="804" column="28" lean-forward="false" selection-start-line="804" selection-start-column="28" selection-end-line="804" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="152" column="2" lean-forward="false" selection-start-line="152" selection-start-column="2" selection-end-line="152" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/libavutil/frame.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="585" column="9" lean-forward="false" selection-start-line="585" selection-start-column="9" selection-end-line="585" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_video_play_sdl2/simplest_video_play_sdl2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/libavutil/avutil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="241" column="8" lean-forward="false" selection-start-line="241" selection-start-column="8" selection-end-line="241" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_decoder_pure/simplest_ffmpeg_decoder_pure.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="174" column="51" lean-forward="false" selection-start-line="174" selection-start-column="51" selection-end-line="174" selection-end-column="51" />
+          <folding>
+            <element signature="e#694#751#0" expanded="true" />
+            <element signature="e#1345#1435#0" expanded="true" />
+            <element signature="e#1546#1636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/libswscale/swscale.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="293" column="7" lean-forward="false" selection-start-line="293" selection-start-column="7" selection-end-line="293" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/SDL2/SDL_timer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player_su/ReadMe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-82">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player/simplest_ffmpeg_player.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3638">
+          <caret line="220" column="18" lean-forward="false" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+          <folding>
+            <element signature="e#67#244#0" expanded="true" />
+            <element signature="e#301#332#0" expanded="true" />
+            <element signature="e#3089#3122#0" expanded="true" />
+            <element signature="e#5113#5195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/libavformat/avformat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="892" column="20" lean-forward="false" selection-start-line="892" selection-start-column="20" selection-end-line="892" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/libavcodec/avcodec.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="4471" column="5" lean-forward="false" selection-start-line="4471" selection-start-column="5" selection-end-line="4471" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1614">
+          <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
+          <folding>
+            <element signature="e#66#243#0" expanded="true" />
+            <element signature="e#300#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

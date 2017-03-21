@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ffmpegDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerSdl2">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerSdl2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerSdl2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerSdl2/fast">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerSdl2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerSdl2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/player" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 player"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player/fast">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/player" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 player/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerSu">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerSu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerSu"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerSu/fast">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerSu" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerSu/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerPure">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerPure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerPure"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playerPure/fast">
+				<Option output="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/playerPure" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 playerPure/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kevinjfliu/svns/simplest_ffmpeg_player/simplest_ffmpeg_decoder_pure/simplest_ffmpeg_decoder_pure.cpp">
+			<Option target="playerPure"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/svns/simplest_ffmpeg_player/simplest_ffmpeg_player/simplest_ffmpeg_player.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/svns/simplest_ffmpeg_player/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp">
+			<Option target="playerSu"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/svns/simplest_ffmpeg_player/simplest_video_play_sdl2/simplest_video_play_sdl2.cpp">
+			<Option target="playerSdl2"/>
+		</Unit>
+		<Unit filename="/Users/kevinjfliu/svns/simplest_ffmpeg_player/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

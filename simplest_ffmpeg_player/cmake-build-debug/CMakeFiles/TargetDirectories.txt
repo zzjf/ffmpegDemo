@@ -1,0 +1,6 @@
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/playerSdl2.dir
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/player.dir
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/playerSu.dir
+/Users/kevinjfliu/svns/simplest_ffmpeg_player/cmake-build-debug/CMakeFiles/playerPure.dir

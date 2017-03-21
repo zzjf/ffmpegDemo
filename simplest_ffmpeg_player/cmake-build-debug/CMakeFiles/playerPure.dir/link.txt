@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playerPure.dir/simplest_ffmpeg_decoder_pure/simplest_ffmpeg_decoder_pure.cpp.o  -o playerPure -lSDL2 -lSDL2main -lavcodec 

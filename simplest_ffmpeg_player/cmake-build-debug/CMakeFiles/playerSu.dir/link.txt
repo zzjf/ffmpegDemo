@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/playerSu.dir/simplest_ffmpeg_player_su/simplest_ffmpeg_player_su.cpp.o  -o playerSu -lSDL2 -lSDL2main -lavcodec -lavcodec -lavformat -lavutil -lswscale 

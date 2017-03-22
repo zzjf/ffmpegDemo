@@ -21,7 +21,6 @@ extern "C"
 };
 #endif
 
-//Refresh Event
 #define SFM_REFRESH_EVENT  (SDL_USEREVENT + 1)
 
 #define SFM_BREAK_EVENT  (SDL_USEREVENT + 2)
@@ -119,10 +118,7 @@ int main(int argc, char* argv[])
     av_image_fill_arrays(pFrameYUV->data, pFrameYUV->linesize,out_buffer,
                          AV_PIX_FMT_YUV420P,pCodecCtx->width, pCodecCtx->height,1);
     
-    //Output Info-----------------------------
-    printf("---------------- File Information ---------------\n");
     av_dump_format(pFormatCtx,0,filepath,0);
-    printf("-------------------------------------------------\n");
     
     img_convert_ctx = sws_getContext(pCodecCtx->width, pCodecCtx->height, pCodecCtx->pix_fmt,
                                      pCodecCtx->width, pCodecCtx->height, AV_PIX_FMT_YUV420P, SWS_BICUBIC, NULL, NULL, NULL);
@@ -155,8 +151,6 @@ int main(int argc, char* argv[])
     packet=(AVPacket *)av_malloc(sizeof(AVPacket));
     
     video_tid = SDL_CreateThread(sfp_refresh_thread,NULL,NULL);
-    //------------SDL End------------
-    //Event Loop
     
     for (;;) {
         //Wait
@@ -176,17 +170,13 @@ int main(int argc, char* argv[])
             }
             if(got_picture){
                 sws_scale(img_convert_ctx, (const unsigned char* const*)pFrame->data, pFrame->linesize, 0, pCodecCtx->height, pFrameYUV->data, pFrameYUV->linesize);
-                //SDL---------------------------
                 SDL_UpdateTexture( sdlTexture, NULL, pFrameYUV->data[0], pFrameYUV->linesize[0] );
                 SDL_RenderClear( sdlRenderer );  
-                //SDL_RenderCopy( sdlRenderer, sdlTexture, &sdlRect, &sdlRect );  
-                SDL_RenderCopy( sdlRenderer, sdlTexture, NULL, NULL);  
+                SDL_RenderCopy( sdlRenderer, sdlTexture, NULL, NULL);
                 SDL_RenderPresent( sdlRenderer );  
-                //SDL End-----------------------
             }
             av_free_packet(packet);
         }else if(event.type==SDL_KEYDOWN){
-            //Pause
             if(event.key.keysym.sym==SDLK_SPACE)
                 thread_pause=!thread_pause;
         }else if(event.type==SDL_QUIT){
@@ -200,7 +190,6 @@ int main(int argc, char* argv[])
     sws_freeContext(img_convert_ctx);
     
     SDL_Quit();
-    //--------------
     av_frame_free(&pFrameYUV);
     av_frame_free(&pFrame);
     avcodec_close(pCodecCtx);

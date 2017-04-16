@@ -620,6 +620,7 @@
 				8B8508CF1E80B8F60013F4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8508D01E80B8F60013F4B5 /* Build configuration list for PBXNativeTarget "playerSDLTests" */ = {
 			isa = XCConfigurationList;
@@ -628,6 +629,7 @@
 				8B8508D21E80B8F60013F4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8508D31E80B8F60013F4B5 /* Build configuration list for PBXNativeTarget "playerSDLUITests" */ = {
 			isa = XCConfigurationList;
@@ -636,6 +638,7 @@
 				8B8508D51E80B8F60013F4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
